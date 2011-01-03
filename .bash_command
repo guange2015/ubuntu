@@ -1,0 +1,14 @@
+function geminstall()
+{
+	gem install $@ -V --no-ri --no-rdoc
+}
+
+cl() {
+    if [ $# -eq 0 ]; then
+        cd
+    else
+        cd "$1" || return 1
+    fi
+    ls
+}
+

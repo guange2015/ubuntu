@@ -1,0 +1,14 @@
+[user]
+	name = hhuai
+	email = 8863824@gmail.com
+[alias]
+  co = checkout
+  ci = commit -a
+  st = status
+  br = branch
+  oneline = log --pretty=oneline --since='2 days ago'
+  onelog = log -p -1
+[color]
+  status = auto
+  branch = auto
+  ui = auto
