@@ -105,6 +105,9 @@ if [ -f ~/.bash_command ]; then
 	. ~/.bash_command
 fi
 
+if [ -f ~/.bash_aliases ]; then
+	. ~/.bash_aliases
+fi
 if [ -e /usr/share/doc/cdargs/examples/cdargs-bash.sh ]; then
 	. /usr/share/doc/cdargs/examples/cdargs-bash.sh
 fi
