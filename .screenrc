@@ -1,0 +1,4 @@
+startup_message off
+hardstatus alwayslastline "%{=b}%{-b}%{R}[%{=b B}%-w%{=b BK}%>%n %t%{-}%+w%{-b}%< %=%{R}][%{-b}%{M}%m-%d %{G}%c%{R}]"
+vbell off
+

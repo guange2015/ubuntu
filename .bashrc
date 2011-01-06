@@ -112,7 +112,9 @@ if [ -e /usr/share/doc/cdargs/examples/cdargs-bash.sh ]; then
 	. /usr/share/doc/cdargs/examples/cdargs-bash.sh
 fi
 
-
+if [ -f ~/bin/start_emacs_server.sh ]; then
+	. ~/bin/start_emacs_server.sh >/dev/null 2>&1
+fi
 
 fi
 
